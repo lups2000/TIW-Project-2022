@@ -1,0 +1,21 @@
+body{
+    background-color: #f7f7f4;
+    color: #36454f;
+}
+
+/*
+    Buttons
+*/
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    border-style: solid;
+    margin-top: 0.15cm;
+}
+.btn-purple{
+    color: #fff;
+    background-color: #9163cb;
+    border-color: #9163cb;
+    cursor: pointer;
+}

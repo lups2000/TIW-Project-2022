@@ -1,0 +1,110 @@
+.General{
+    margin-left: 10px;
+}
+#welcomeMsg{
+	margin-left: 10px;
+}
+.docDiv{
+	margin-left: 10px;
+}
+
+.Logout{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+.alertDiv h5{
+	color: red;
+    font-style: italic;
+    margin-left: 10px;
+}
+.alertDiv >p{
+	color: red;
+    font-style: italic;
+}
+h1{
+    text-align: center;
+}
+.documentsDiv{
+	margin-left: 10px;
+	display: none;
+}
+.subFolderCreationDiv{
+	position: absolute; 
+    right: 25rem;
+    left: 30rem;
+    top: 8rem;
+    bottom: 22rem;
+    border: solid 2px #9163cb; 
+    border-radius: 20px;
+    text-align: center; 
+    padding: 2rem;
+    z-index: 100;
+    background-color: #e0d9d2;
+    display : none;
+}
+.subFolderCreationDiv.h5{
+	text-align : center;
+}
+.documentCreationDiv{
+	position: absolute; 
+    right: 25rem;
+    left: 30rem;
+    top: 8rem;
+    bottom: 15rem;
+    border: solid 2px #9163cb; 
+    border-radius: 20px;
+    text-align: center; 
+    padding: 2rem;
+    z-index: 100;
+    background-color: #e0d9d2;
+    display: none;
+}
+.documentCreationDiv.h5{
+	text-align : center;
+}
+.btnFolder{
+	text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+    color: black;
+    background-color: #dad7cd;
+    border-color: #9163cb;
+    cursor: pointer;
+    margin-left: 0.30cm;
+}
+.btnDocument{
+	text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+    color: black;
+    background-color: #98c1d9;
+    border-color: #22223b;
+    cursor: pointer;
+    margin-left: 0.30cm;
+}
+.Back{
+	position: absolute;
+    top: 2%;
+    right: 2%;
+    display: none;
+}
+.btnSubFolder{
+	text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+    color: black;
+    background-color: #cad2c5;
+    border-color: #344e41;
+    cursor: pointer;
+    margin-left: 0.30cm;
+}
+li{
+	margin-top: 0.15cm;
+	margin-bottom: 0.15cm;
+}
+.Bin{
+	color : red;
+	text-align : center;
+}
