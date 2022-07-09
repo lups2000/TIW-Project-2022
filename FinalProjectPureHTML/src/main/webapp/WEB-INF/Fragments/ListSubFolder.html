@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+	<!-- General case -->
+	<div th:fragment="sublist(subFold)">
+		<div>
+			<a href="" th:href="@{/DocumentsPage(subFolderId=${subFold.id})}"><span th:text="${subFold.name}">CartellaX</span></a>
+		</div>
+	</div>
+
+	<!-- If the user is moving a document -->
+	<div th:fragment="sublist_and_docId(subFold,doc)">
+		<div>
+			<p th:if="${subFold.id == doc.id_subfolder}">
+				<span th:text="${subFold.name}"></span>
+			</p>
+			<p th:unless="${subFold.id == doc.id_subfolder}">
+				<a href="" th:href="@{/ChangeDocumentPosition(documentId=${doc.id},subFolderId=${subFold.id})}"><span th:text="${subFold.name}">CartellaX</span></a>
+			</p>
+		</div>
+		
+	</div>
+
+    
+</body>
+</html>

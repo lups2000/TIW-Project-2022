@@ -1,0 +1,18 @@
+.General{
+    margin-left: 10px;
+}
+.Logout{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+.MoveDoc > p{
+    color: red;
+    font-style: italic;
+}
+h1{
+    text-align: center;
+}
+.General h5{
+	color: red;
+}
